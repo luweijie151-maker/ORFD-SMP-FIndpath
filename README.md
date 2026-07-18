@@ -47,4 +47,12 @@ pip install segmentation-models-pytorch
 5. 运行路径规划脚本输出导航路径
 
 ## 结果展示
-![分割结果视频](output.mp4)
+## 结果展示
+<div align="center">
+<video width="700" controls>
+  <source src="output.mp4" type="video/mp4">
+  浏览器不支持视频播放，请下载查看
+</video>
+<br>
+ORFD语义分割转栅格图+A\*路径规划完整演示
+</div>
