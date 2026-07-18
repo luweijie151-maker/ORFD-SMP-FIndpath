@@ -11,8 +11,6 @@
 - numpy
 - matplotlib
 
-
-
 ## 运行流程
 
 1. 使用训练好的 ORFD 分割模型对路面图像推理，输出分割掩码
@@ -40,11 +38,11 @@ pip install pathfinding -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 使用方法
 
-1. 配置环境依赖
+1. 使用数据集ORDF，使用train.ipynb训练模型，本项目选用LinkNet作为基础网络架构，编码器（Encoder）采用 ResNet18，
+借助 SMP 库快速搭建轻量化语义分割模型，适配越野路面实时推理需求。
 2. 将模型权重放置本地 weights 目录
-3. 运行 scripts 内推理脚本生成分割结果
-4. 执行栅格转换脚本得到栅格地图
-5. 运行路径规划脚本输出导航路径
+3. 运行 SMP调用.ipynb 进行模型调用完成图像的语义分割和findpath设置好起点终点进行寻找路径
+
 
 ## 实验效果展示
 <div align="center">
