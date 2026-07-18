@@ -121,3 +121,15 @@ __pycache__/
 *.pyc
 logs/
 .DS_Store
+weights/
+ckpt/
+*.ckpt
+*.pth
+*.onnx
+*.zip
+*.tar
+*.rar
+__pycache__/
+*.pyc
+logs/
+.DS_Store
