@@ -54,7 +54,7 @@ pip install pathfinding -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 动态演示视频
 完整语义分割运行演示：
-https://github.com/user-attachments/assets/142e6068-cb49-43d6-b955-bb49875b5372
+https://github.com/user-attachments/output.mp4
 
 ## 路径规划展示
 <div align="center">
