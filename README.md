@@ -46,8 +46,7 @@ pip install segmentation-models-pytorch
 4. 执行栅格转换脚本得到栅格地图
 5. 运行路径规划脚本输出导航路径
 
-## 结果展示
-## 结果展示
+## 实验效果展示
 <div align="center">
 <img src="test3.png" width="260"/>
 </div>
