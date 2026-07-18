@@ -48,10 +48,16 @@ pip install segmentation-models-pytorch
 
 ## 实验效果展示
 <div align="center">
-<img src="test/result.png" width="260"/>
+<img src="test/result.png" width="720"/>
 </div>
 <center>输入路面图像 | 语义分割结果 | 栅格化</center>
+
+## 动态演示视频
 <div align="center">
-<img src="output.mp4" width="260"/>
+<video width="700" controls>
+  <source src="output.mp4" type="video/mp4">
+</video>
+<br>
+语义分割转栅格地图自动寻路全过程演示
 </div>
-<center>结果视频处理</center>
+
