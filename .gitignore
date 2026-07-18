@@ -109,4 +109,15 @@ venv.bak/
 .mypy_cache/
 
 # ruff
-.ruff_cache/
+.ruff_cache/weights/
+ckpt/
+*.ckpt
+*.pth
+*.onnx
+*.zip
+*.tar
+*.rar
+__pycache__/
+*.pyc
+logs/
+.DS_Store
