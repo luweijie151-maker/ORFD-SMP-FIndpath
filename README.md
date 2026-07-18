@@ -53,11 +53,7 @@ pip install segmentation-models-pytorch
 <center>输入路面图像 | 语义分割结果 | 栅格化</center>
 
 ## 动态演示视频
-<div align="center">
-<video width="700" controls>
-  <source src="output.mp4" type="video/mp4">
-</video>
-<br>
-语义分割转栅格地图自动寻路全过程演示
-</div>
+完整语义分割运行演示：
+https://github.com/user-attachments/assets/142e6068-cb49-43d6-b955-bb49875b5372
 
+## 路径规划展示
