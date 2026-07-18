@@ -48,6 +48,6 @@ pip install segmentation-models-pytorch
 
 ## 实验效果展示
 <div align="center">
-<img src="test3.png" width="260"/>
+<img src="test/test3.png" width="260"/>
 </div>
 <center>输入路面图像 | 语义分割结果 | 栅格寻路可视化</center>
