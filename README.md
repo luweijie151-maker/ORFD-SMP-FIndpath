@@ -26,17 +26,17 @@
 
 ## 安装第三方库 SMP
 
-无需存放源码文件夹，直接 pip 安装：
+文件夹下载或者，直接 pip 安装：
 
 ```
 pip install segmentation-models-pytorch
 ```
+## 安装第三方库 pathfinding 
 
-## 仓库规范
-
-1. 不存储训练权重、大型模型文件
-2. 第三方依赖统一通过 requirements 安装
-3. 仅保留项目自研代码、脚本与可视化工具
+无需存放源码文件夹，直接 pip 安装：
+```
+pip install pathfinding -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
 ## 使用方法
 
@@ -57,3 +57,7 @@ pip install segmentation-models-pytorch
 https://github.com/user-attachments/assets/142e6068-cb49-43d6-b955-bb49875b5372
 
 ## 路径规划展示
+<div align="center">
+<img src="test/路径规划.png" width="720"/>
+</div>
+<center>A*基于格栅图路径规划，并且做一维高斯平滑，消除锯齿拐点，输出平滑轨迹坐标</center>
