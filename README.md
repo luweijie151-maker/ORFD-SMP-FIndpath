@@ -54,7 +54,7 @@ pip install pathfinding -i https://pypi.tuna.tsinghua.edu.cn/simple
 完整语义分割运行演示：
 https://github.com/user-attachments/output.mp4
 
-## 路径规划展示
+## 利用相机参数真实还原俯视图并做路径规划展示
 <div align="center">
 <img src="test/resultout.png" width="720"/>
 </div>
