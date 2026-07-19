@@ -46,7 +46,7 @@ pip install pathfinding -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## 实验效果展示
 <div align="center">
-<img src="test/result.png" width="720"/>
+<img src="test/mask.png" width="720"/>
 </div>
 <center>输入路面图像 | 语义分割结果 | 栅格化</center>
 
@@ -56,6 +56,6 @@ https://github.com/user-attachments/output.mp4
 
 ## 路径规划展示
 <div align="center">
-<img src="test/路径规划.png" width="720"/>
+<img src="test/result.png" width="720"/>
 </div>
 <center>A*基于格栅图路径规划，并且做一维高斯平滑，消除锯齿拐点，输出平滑轨迹坐标</center>
