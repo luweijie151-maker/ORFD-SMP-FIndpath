@@ -56,6 +56,6 @@ https://github.com/user-attachments/output.mp4
 
 ## 路径规划展示
 <div align="center">
-<img src="test/result.png" width="720"/>
+<img src="test/resultout.png" width="720"/>
 </div>
 <center>A*基于格栅图路径规划，并且做一维高斯平滑，消除锯齿拐点，输出平滑轨迹坐标</center>
